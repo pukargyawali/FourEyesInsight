@@ -13,7 +13,7 @@ Follow these steps to get your development environment set up: (Before Run Start
 
   Clone the repository
 
-  At the src directory, where folders for the projects are present run below command:
+  At the root directory, where folders for the projects are present run below command:
 
 #### Docker File
   docker-compose -f docker-compose.yml up -d
