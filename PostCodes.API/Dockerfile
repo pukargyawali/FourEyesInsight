@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
+#FROM mcr.microsoft.com/dotnet/sdk:3.1-buster-slim AS build
 COPY PostCodes.API/*.csproj ./
 RUN dotnet restore PostCodes.API.csproj
 
